@@ -16,7 +16,8 @@ This list automatically sorts the array in incrementing order when any operation
 int main(){
 
   Node list[100];  //Create the node array
-  init(list);  //Initialize all the nodes within the array
   start(list);  //Begin the program
-return 0;
+
+  return 0;
+
 }

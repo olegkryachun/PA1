@@ -2,6 +2,7 @@
 #define FOUND 1
 #define NOTFOUND 0
 
+
 typedef struct{
   int data;
   int next;
@@ -18,12 +19,11 @@ typedef struct{
 void init(Node *list);
 void start(Node *list);
 void printInfo();
-Return searchNode(Node *list, int, int *);
-void deleteNode(Node *list, int);
+Return searchNode(Node *list, int);
+int deleteNode(Node *list, int);
 void printList(Node *list);
-void insertNode(Node *list);
+int insertNode(Node *list,int);
 int get_node(Node *list);
 void release_node(Node *list,int);
 
 
-extern int listLen;
